@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- My CSS -->
+    <!-- END My CSS -->
+    <title>Katalog SANT</title>
+    <style type="text/css">
+      @font-face {
+            font-family: "twc";
+            src: url(TWC.TTF);
+            }
+    
+      .twc {
+            font-family: "twc";
+            }
+      @font-face {
+        font-family: "mont";
+        src: url(Mont.ttf);
+      }
+
+      .mont {
+        font-family: "mont";
+      }
+      @font-face {
+        font-family: "lato";
+        src: url(font/Lato.ttf);
+      }
+
+      .lato {
+        font-family: "lato";
+      }
+    .card-img-top{
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .carousel-contain{
+      background-color: black;
+    
+    }
+    .btn{
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 5px;
+    }
+    .kontak{
+      box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    }
+   </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  </head>
+  <body id="home">
+  
+<!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow lato sticky-top " style="background-image: url(img/rbw.png);font-size: 14px;">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-6 fw-bold " href="#">
+          <img src="img/bbkb.png" alt="" width="150px" class="d-inline-block align-text-center" style="font-size:14px ;"/>
+          Serat Alam Non Tekstil
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Jenis Serat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#peta">Peta Potensi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NavBar -->
+
+
+
+<!--banner-->
+<div class="container-fluid carousel-contain">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/beranda1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/beranda6.gif" class="d-block w-100" alt="...">
+      </div>
+      
+    </div>
+    
+  </div>
+    
+
+</div>
+  
+<!--END banner-->
+
+
+
+<!--Produk-->
+<section id="produk">
+    <div class="produk container-lg lato" style="padding-bottom : 1cm; padding-top: 1cm; ">
+      <h1 class="display-6 fw-bold text-center">Jenis Serat</h1>
+      <br>
+      <br>
+      <div class="row container-lg gy-4  row-cols-sm-3 justify-content-center">
+        
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_rt.jpg" class="card-img-top" alt="" >
+          <div class="card-body text-center">
+          <h5 class="card-title">Rotan</h5>
+          <a href="rotan.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk</a>
+          </div>  
+        </div>
+  
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_bb.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+          <h5 class="card-title">Bambu</h5>
+          <a href="bambu.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>          </div>
+        </div>
+
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_eg.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+          <h5 class="card-title">Enceng Gondok</h5>
+          <a href="encenggondok.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>          </div>
+        </div>
+
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_md.jpg" class="card-img-top" alt="" >
+          <div class="card-body text-center">
+          <h5 class="card-title">Mendong</h5>
+          <a href="mendong.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>          </div>  
+        </div>
+  
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_pd.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+          <h5 class="card-title">Pandan</h5>
+          <a href="pandan.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>          </div>
+        </div>
+
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_pp.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+          <h5 class="card-title">Pelepah Pisang</h5>
+          <a href="pelepahpisang.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>
+          </div>
+        </div>
+      
+        <div class="col" "card" style="width: 25rem;"">
+          <img src="img/logo_kk.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+          <h5 class="card-title">Kulit Kayu</h5>
+          <a href="kulitkayu.html" class="btn btn-info stretched-link " style="font-size:14px;">Lihat Produk </a>          </div>
+        </div>
+      
+      </div>
+    </div>
+</section>
+<!--END Produk-->
+
+
+    <!--Peta-->
+    <section id="peta">
+      <div class="peta container-fluid lato" style="background-color: #aed6f099; padding-bottom: 1cm;padding-top: 1cm;">
+        <div class="row container-fluid text-center">
+          <div class="col">
+            <h1 class="display-6 fw-bold text-center my-3 ">Peta Potensi <br>Kerajinan Serat Alam Non Tekstil <br>di Indonesia</h1>
+            <br>
+            <br>
+            <div class="container-fluid embed-responsive">
+              <iframe src="https://www.scribblemaps.com/maps/view/sant/OtH2stIEjC" width="100%" height="600"></iframe>            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END Peta-->
+
+<!--Kontak-->
+<section id="kontak">
+  <div class="kontak container-fluid lato" style="background-color: #0c5f97; padding-bottom: 1cm;padding-top: 1cm;">
+    <div class="row">
+      <div class="col-md-12 text-center">
+          <p class="logo-text" style="font-size: 18px; font-weight: 600;color: #fff;">
+            BALAI BESAR STANDARISASI DAN PELAYANAN JASA INDUSTRI KERAJINAN DAN BATIK
+            <br>
+            <p style="font-size: 13px;color:#fff;">
+              Jalan Kusumanegara No. 07, Kota Yogyakarta Kode Pos 55166, Daerah Istimewa Yogyakarta
+              <br>
+              Telp. 0274-546111 | Fax. 0274-543582 
+            </p>
+            
+              <a href="https://www.instagram.com/bbkb_kemenperin/"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="https://www.facebook.com/balaibatik/"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.tiktok.com/@bbkb_kemenperin"><ion-icon name="logo-tiktok"></ion-icon></a>
+              <a href="https://twitter.com/BalaiBatikJogja"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="https://www.youtube.com/channel/UCUgxuNHQLaHwFm11BS-sBQQ"><ion-icon name="logo-youtube"></ion-icon></a>
+
+            
+
+            <p></p>
+            <a href="https://www.batik.go.id/apolo/home" class="btn btn-danger">Daftar Pelatihan / Workshop</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--END Kontak-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

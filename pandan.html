@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Katalog SANT</title>
+    <style type="text/css">
+      @font-face {
+        font-family: "twc";
+        src: url(font/TWC.TTF);
+      }
+
+      .twc {
+        font-family: "twc";
+      }
+      @font-face {
+        font-family: "mont";
+        src: url(font/Mont.ttf);
+      }
+
+      .mont {
+        font-family: "mont";
+      }
+      @font-face {
+        font-family: "lato";
+        src: url(font/Lato.ttf);
+      }
+
+      .lato {
+        font-family: "lato";
+      }
+      .card-img-top {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .btn {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      ion-icon {
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+      .kontak {
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+      }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="preload" as="font" type="font/woff2" href="//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2" crossorigin="" />
+  </head>
+  <body>
+    <style type="text/css">
+      .gallery {
+        padding-top: 1cm;
+        background-color: rgb(255, 255, 255);
+        padding: 80 px 0;
+      }
+      .gallery img {
+        background-color: rgb(252, 252, 252);
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+      }
+
+      .gallery-item {
+        transition: 0.5s ease-in-out;
+      }
+      .gallery-item:hover {
+        filter: brightness(70%);
+      }
+    </style>
+
+    <!-- NavBar -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light shadow lato" style="background-image: url(img/rbw.png); font-size: 14px">
+        <div class="container">
+          <a class="navbar-brand fs-6 fw-bold" href="#">
+            <img src="img/bbkb.png" alt="" width="150px" class="d-inline-block align-text-center" style="font-size: 14px" />
+            Serat Alam Non Tekstil
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END NavBar -->
+
+    <!--Pengantar-->
+    <section id="pengantarpandan">
+      <div class="container-fluid lato" style="padding-top: 1cm; padding-bottom: 1cm; background-color: rgba(190, 190, 190, 0.568)">
+        <div class="row justify-content-center">
+          <div class="col-5">
+            <h1>Pandan</h1>
+            <br />
+            Pandan merupakan tanaman dengan ciri daun panjang seperti pita dan lentur sehingga cocok untuk pembuatan anyaman. Tanaman ini merupakan tumbuhan perdu yang memiliki banyak akar dan berbatang kuat. Tulang daun pandan memiliki
+            bentuk yang cekung. Pandan duri adalah pandan yang sering digunakan untuk pembuatan anyaman. Terdapat beberapa jenis pandan seperti pandan pasir di Bantul Yogyakarta, padan sari di Blora, pandan jaran di Tulungagung, dll.
+            <br />
+            <br />
+            Proses pengolahan pandan sebelum menjadi anyaman diawali dengan melepaskan lidi pandan dan urat - urat daun pandan selanjutnya pandan tersebut dihaluskan. Lontar atau daun pandan setelah diolah dipotong-potong menjadi
+            bagian-bagian sama kemudian dimasak dalam air, dilicinkan dan dijemur. Apabila dikehendaki anyaman dengan pola warna, maka sebagian dari bahan dicelup ke dalam cairan pewarna. Bahan yang telah diolah menjadi lentur dan luwes
+            siap untuk dianyam menjadi tikar, alas makan, tas dan topi. Pandan dapat dijahit dalam proses pembuatan menjadi suatu produk tertentu.
+            <br />
+          </div>
+          <div class="col-5 justify-content-center img-fluid">
+            <img src="img/pandan.jpeg" class="img-fluid shadow" width="600px" alt="" />
+            Sumber : www.kompasiana.com
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END Pengantar-->
+
+    <!--GALLERY-->
+    <section id="produk">
+      <div class="gallery min-vh-100 lato">
+        <div class="container-lg" style="padding-bottom: 2cm">
+          <div class="row">
+            <div class="col text-center">
+              <h2>Produk Pandan</h2>
+              <br />
+            </div>
+          </div>
+
+          <div class="row gy-3 row-cols-1 row-cols-sm-3 row-col-md-4">
+            <div class="col">
+              <img src="img/PD_1.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_2.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_3.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_4.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_5.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_6.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_7.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_8.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_9.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_10.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_11.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_12.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_13.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+            <div class="col">
+              <img src="img/PD_14.jpg" class="gallery-item" width="300px" alt="gallery" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END GALLERY-->
+
+    <!-- GALLERY MODAL -->
+    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Produk Pandan</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <center><img src="img/RT_1.png" class="modal-img" alt="modal img" /></center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END GALLERY MODAL-->
+
+    <!--Kembali-->
+    <div class="row">
+      <div class="col-md-12 text-center lato" style="padding-bottom: 1cm">
+        <a href="index.html" class="btn btn-dark fw-bold"> Kembali ke halaman utama </a>
+      </div>
+    </div>
+    <!--END Kembali-->
+
+    <!--Kontak-->
+    <section id="kontak">
+      <div class="kontak container-fluid lato" style="background-color: #0c5f97; padding-bottom: 1cm; padding-top: 1cm">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="logo-text" style="font-size: 18px; font-weight: 600; color: #fff">
+              BALAI BESAR STANDARISASI DAN PELAYANAN JASA INDUSTRI KERAJINAN DAN BATIK
+              <br />
+            </p>
+
+            <p style="font-size: 13px; color: #fff">
+              Jalan Kusumanegara No. 07, Kota Yogyakarta Kode Pos 55166, Daerah Istimewa Yogyakarta
+              <br />
+              Telp. 0274-546111 | Fax. 0274-543582
+            </p>
+
+            <a href="https://www.instagram.com/bbkb_kemenperin/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/balaibatik/"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.tiktok.com/@bbkb_kemenperin"><ion-icon name="logo-tiktok"></ion-icon></a>
+            <a href="https://twitter.com/BalaiBatikJogja"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://www.youtube.com/channel/UCUgxuNHQLaHwFm11BS-sBQQ"><ion-icon name="logo-youtube"></ion-icon></a>
+
+            <p></p>
+            <a href="https://www.batik.go.id/apolo/home" class="btn btn-danger">Daftar Pelatihan / Workshop</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END Kontak-->
+    <script>
+      document.addEventListener("click", function (e) {
+        if (e.target.classList.contains("gallery-item")) {
+          const src = e.target.getAttribute("src");
+          document.querySelector(".modal-img").src = src;
+          const myModal = new bootstrap.Modal(document.getElementById("gallery-modal"));
+          myModal.show();
+        }
+      });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

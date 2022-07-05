@@ -1,0 +1,14 @@
+.produk {
+  padding-left: 0ch;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+#gallery-modal .modal-img {
+  width: 6cm;
+}
